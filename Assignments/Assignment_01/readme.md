@@ -16,7 +16,11 @@ Step2: Inside the kernel directory make a new folder "hello"
 ![image](https://user-images.githubusercontent.com/125996317/222536354-352c535c-2dd7-4c8d-8b97-ff461e530910.png)
 
 Step3: Adding a C code for system call
+
+
 ![image](https://user-images.githubusercontent.com/125996317/222536610-83a9c20d-8ef4-4fad-af8f-dbf492e91a2a.png)
+
+
 Explaination of code:
 1. Because we are developing a system call for our Linux kernel, we used the #include linux/kernel> directive.
 2. Amslinkage just indicates that the arguments to this function will be on the stack rather than in the CPU registers.
